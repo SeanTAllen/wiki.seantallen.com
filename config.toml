@@ -1,0 +1,5 @@
+baseURL = "https://www.seantallen.wiki/"
+languageCode = "en-us"
+title = "seantallen.wiki"
+theme = "ananke"
+background_color_class = "yellow"
