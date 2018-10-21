@@ -3,3 +3,14 @@ languageCode = "en-us"
 title = "seantallen.wiki"
 theme = "ananke"
 canonifyurls = false
+
+[related]
+
+threshold = 80
+includeNewer = true
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
