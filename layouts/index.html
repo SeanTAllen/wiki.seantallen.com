@@ -7,13 +7,11 @@
   <div class="mw8 center">
     <section class="ph4">
       {{ range $key, $value := .Site.Taxonomies.tags }}
-        <!-- Not sure if I want this. Comment out for now
         <h2 class="f1">
           <a href="{{ "/tags" | relLangURL }}{{ $.Data.Plural | urlize }}/{{ $key | urlize }}" class="link blue hover-black">
-            {{ $key }}:
+            {{ $key }}
           </a>
         </h2>
-        -->
         {{ range $value.Pages }}
           {{ partial "summary.html" . }}
         {{ end }}
