@@ -8,6 +8,9 @@ preserveTaxonomyNames = true
 [params]
 custom_css = ["css/my.css"]
 
+[taxonomies]
+  tag = "tags"
+
 [related]
 threshold = 80
 includeNewer = true
