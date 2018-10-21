@@ -1,7 +1,7 @@
 ---
 title: "Change IRC channel mode"
 date: 2018-10-20T21:53:25-04:00
-draft: true
+draft: false
 tags: [irc]
 featured_image: ""
 ---
