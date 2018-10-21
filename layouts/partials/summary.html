@@ -8,7 +8,7 @@
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       {{ if not .Description }}
-      {{ .Summary | markdownify}}
+      {{ .Summary }}
       {{ else }}
       {{ .Description | markdownify }}
       {{ end }}
