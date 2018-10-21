@@ -21,3 +21,13 @@ toLower = false
 name = "tags"
 weight = 100
 
+[menu]
+  [[menu.main]]
+    name = "notes"
+    url = "/notes/"
+    weight = -110
+
+  [[menu.main]]
+    name = "tags"
+    url = "/tags/"
+    weight = -100
