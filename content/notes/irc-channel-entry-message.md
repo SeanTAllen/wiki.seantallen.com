@@ -4,7 +4,7 @@ slug: "irc-setting-channel-entry-message"
 date: 2018-12-27T00:24:50-04:00
 draft: false
 tags: [IRC]
-description: "Set a message that appears when a user enters the channel"
+description: "Set a message that appears when a user enters the channel."
 ---
 Notes from [GeekShed](http://www.geekshed.net/2011/04/setting-a-channel-entry-message/).
 
