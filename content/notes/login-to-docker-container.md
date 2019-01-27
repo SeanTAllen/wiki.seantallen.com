@@ -1,7 +1,7 @@
 ---
 title: "Login to Docker container"
 slug: "login-to-docker-container"
-date: 2019-01-27T21:53:25-04:00
+date: 2019-01-27T00:00:25-04:00
 draft: false
 tags: [Docker]
 description: "How to get a shell in a Docker container so you can run commands and otherwise test/get things working."
