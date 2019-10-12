@@ -1,6 +1,6 @@
-baseURL = "https://www.seantallen.wiki/"
+baseURL = "https://wiki.seantallen.com/"
 languageCode = "en-us"
-title = "seantallen.wiki"
+title = "wiki.seantallen.com"
 theme = "ananke"
 canonifyurls = false
 preserveTaxonomyNames = true
