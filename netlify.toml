@@ -10,6 +10,10 @@ ID = "Your_Site_ID"
   publish = "public/"
   command = "bash build.bash"
 
+[[redirects]]
+  from = "https://seantallen-wiki.netlify.com/*"
+  to = "https://wiki.seantallen.com/:splat"
+
 # Have to set HUGO_VERSION for each environment otherwise we get the 0.17 default
 [context.production.environment]
   HUGO_VERSION = "0.52"
@@ -19,7 +23,3 @@ ID = "Your_Site_ID"
 
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.52"
-
-[[redirects]]
-  from = "https://seantallen-wiki.netlify.com/*"
-  to = "https://wiki.seantallen.com/:splat"
