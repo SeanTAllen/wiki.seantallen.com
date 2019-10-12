@@ -19,3 +19,7 @@ ID = "Your_Site_ID"
 
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.52"
+
+[[redirects]]
+  from = "https://seantallen-wiki.netlify.com/*"
+  to = "https://wiki.seantallen.com/:splat"
