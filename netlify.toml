@@ -13,6 +13,8 @@ ID = "Your_Site_ID"
 [[redirects]]
   from = "https://seantallen-wiki.netlify.com/*"
   to = "https://wiki.seantallen.com/:splat"
+  status=301
+  force=true
 
 # Have to set HUGO_VERSION for each environment otherwise we get the 0.17 default
 [context.production.environment]
