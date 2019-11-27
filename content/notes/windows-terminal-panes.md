@@ -3,7 +3,7 @@ title: "Windows Terminal Pane Commands"
 slug: "windows-terminal-panes"
 date: 2019-11-27T00:00:25-04:00
 draft: false
-tags: [Windows Terminal]
+tags: [Windows Terminal, Windows, Shortcuts]
 description: "Keyboard shortcuts for working with Windows Terminal."
 ---
 As far as I know, these are currently only listed in a [blog post](https://devblogs.microsoft.com/commandline/windows-terminal-preview-v0-7-release/).
