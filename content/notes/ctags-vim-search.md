@@ -3,7 +3,7 @@ title: "Exuberant ctags and Vim"
 slug: "exuberant-ctags-vim"
 date: 2019-02-05T00:00:25-04:00
 draft: false
-tags: [vim, ctags]
+tags: [Vim, ctags]
 description: "How to use Exuberant ctags with Vim"
 ---
 Vim uses file called `tags` in the current directory.
