@@ -1,10 +1,10 @@
 ---
-title: "Update git tags to match remote"
-slug: "Update git tags to match remote"
+title: "Update Git tags to match remote"
+slug: "Update Git tags to match remote"
 date: 2019-12-18T12:53:25-04:00
 draft: false
 tags: [Git]
-description: "How to 'remove' tags that aren't in the remote"
+description: "How to 'remove' tags that aren't in the remote."
 ---
 
 ```bash
