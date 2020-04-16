@@ -4,6 +4,7 @@ title = "wiki.seantallen.com"
 theme = "ananke"
 canonifyurls = false
 preserveTaxonomyNames = true
+paginate = 12
 
 [params]
   custom_css = ["css/my.css"]
