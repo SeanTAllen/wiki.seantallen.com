@@ -1,6 +1,6 @@
 ---
 title: "Update Git tags to match remote"
-slug: "Update Git tags to match remote"
+slug: "update-git-tags-to-match-remote"
 date: 2019-12-18T12:53:25-04:00
 draft: false
 tags: [Git]
