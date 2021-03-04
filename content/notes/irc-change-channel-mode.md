@@ -2,7 +2,7 @@
 title: "Change IRC channel mode"
 slug: "change-irc-channel-mode"
 date: 2018-10-20T21:53:25-04:00
-draft: false
+draft: true
 tags: [IRC]
 description: "How to change IRC channel modes."
 ---

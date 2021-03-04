@@ -2,7 +2,7 @@
 title: "IRC Grant Founder Access"
 slug: "irc-grant-founder-access"
 date: 2018-10-21T00:24:50-04:00
-draft: false
+draft: true
 tags: [IRC]
 description: "Grant 'super user' access for a IRC channel."
 ---
