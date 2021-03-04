@@ -2,7 +2,7 @@
 title: "Restart a CircleCI job without SSH"
 slug: "restart-circleci-without-ssh"
 date: 2019-04-03T00:00:25-04:00
-draft: false
+draft: true
 tags: [CircleCI]
 description: "How to restart a CircleCI job without using SSH session."
 ---
