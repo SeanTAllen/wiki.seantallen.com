@@ -12,7 +12,7 @@ The most common use case for this would be to sync a forked GitHub repo with the
 The example below assumes that you, want to:
 
 - Name the remote "upstream"
-- Want to update your master branch to match the remote's master branch
+- Want to update your main branch to match the remote's main branch
 
 ```bash
 # Add the remote, call it "upstream":
@@ -20,17 +20,17 @@ The example below assumes that you, want to:
 git remote add upstream https://github.com/whoever/whatever.git
 
 # Fetch all the branches of that remote into remote-tracking branches,
-# such as upstream/master:
+# such as upstream/main:
 
 git fetch upstream
 
-# Make sure that you're on your master branch:
+# Make sure that you're on your main branch:
 
-git checkout master
+git checkout main
 
-# Rewrite your master branch so that any commits of yours that
-# aren't already in upstream/master are replayed on top of that
+# Rewrite your main branch so that any commits of yours that
+# aren't already in upstream/main are replayed on top of that
 # other branch:
 
-git rebase upstream/master
+git rebase upstream/main
 ```

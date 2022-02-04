@@ -14,13 +14,13 @@ If you don't care about keeping any comments from the previous commits then rese
 To set if you are using `bash`:
 
 ```bash
-git reset $(git merge-base master $(git rev-parse --abbrev-ref HEAD))
+git reset $(git merge-base main $(git rev-parse --abbrev-ref HEAD))
 ```
 
 To reset if you are using `fish`:
 
 ```fish
-git reset (git merge-base master (git rev-parse --abbrev-ref HEAD))
+git reset (git merge-base main (git rev-parse --abbrev-ref HEAD))
 ```
 
 After resetting you can then do:
