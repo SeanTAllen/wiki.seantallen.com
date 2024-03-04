@@ -12,10 +12,18 @@ This will delete references to branches that don't exist on the remote:
 git remote prune origin
 ```
 
-Amusingly, this will not delete all local branches without a remote, because "git". This script will delete all local branches where the remote is "gone":
+Amusingly, this will not delete all local branches without a remote, because "git". This script will delete all local branches where the remote is "gone".
+
+Bash:
 
 ```bash
 git branch -D $(git for-each-ref --format='%(if:equals=[gone])%(upstream:track)%(then)%(refname:short)%(end)' refs/heads)
+```
+
+Fish:
+
+```fish
+git branch -D (git for-each-ref --format='%(if:equals=[gone])%(upstream:track)%(then)%(refname:short)%(end)' refs/heads)
 ```
 
 Between the two, that should get everything.
